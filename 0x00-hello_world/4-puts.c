@@ -1,13 +1,24 @@
-#include <studio.h>
+#include <stdio.h>
+
 
 /**
- * main - this is the main function
+ * main - program that prints the alphabet in lowercase and upper case
  *
- * Return: always 0
+ * Return: Always 0.
  */
 
 int main(void)
 {
-puts(*\"Programming is like building a multilingual puzzle");
-return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+
+	{
+	if (letter != 'e' && letter != 'q')
+	putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
