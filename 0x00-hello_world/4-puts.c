@@ -1,24 +1,11 @@
 #include <stdio.h>
-
-
 /**
- * main - program that prints the alphabet in lowercase and upper case
- *
- * Return: Always 0.
+ * main - A program that prints a line with puts function
+ * Return: 0 (Success)
  */
-
 int main(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
-
-	putchar('\n');
-
-	return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
+
